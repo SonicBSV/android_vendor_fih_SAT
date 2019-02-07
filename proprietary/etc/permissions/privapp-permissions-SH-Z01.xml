@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.android.calendar">
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions on top of privapp-permissions-platform.xml -->
+    <privapp-permissions package="com.android.contacts">
+        <permission name="android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK"/>
+        <permission name="android.permission.CALL_PRIVILEGED"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.READ_LOGS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.android.voicemail.permission.WRITE_VOICEMAIL"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.deskclock">
+        <permission name="android.permission.SHUTDOWN"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions on top of privapp-permissions-platform.xml -->
+    <privapp-permissions package="com.android.dialer">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.STATUS_BAR"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.mms">
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.siuidefcontainer">
+        <permission name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions on top of privapp-permissions-platform.xml -->
+    <privapp-permissions package="com.android.systemui">
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.evenwell.AprUploadService">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.evenwell.UsageStatsLogReceiver">
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.evenwell.factorywizard">
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+        <permission name="android.permission.SHUTDOWN"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.evenwell.stbmonitor">
+        <permission name="android.permission.READ_LOGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.qti.dpmserviceapp">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.qualcomm.qcrilmsgtunnel">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.quicinc.cne.CNEService">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.PACKET_KEEPALIVE_OFFLOAD"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.siui.android.SetupWizard">
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.SHUTDOWN"/>
+        <permission name="android.permission.STATUS_BAR"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.siui.android.batterycontrol">
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.REGISTER_CALL_PROVIDER"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.siui.android.camera">
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.siui.android.data">
+        <permission name="android.permission.MOUNT_FORMAT_FILESYSTEMS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.siui.android.filemanager">
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.siui.android.gallery">
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.siui.android.sboost">
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.CLEAR_APP_CACHE"/>
+        <permission name="android.permission.DELETE_CACHE_FILES"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.siui.android.trafficcontrol">
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.launcher3">
+        <permission name="android.permission.BIND_APPWIDGET"/>
+    </privapp-permissions>
+
+</permissions>
