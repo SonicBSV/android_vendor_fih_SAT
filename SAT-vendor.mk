@@ -514,6 +514,14 @@ PRODUCT_COPY_FILES += \
     vendor/sharp/SAT/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/sharp/SAT/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/sharp/SAT/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
+    vendor/sharp/SAT/proprietary/vendor/etc/acdbdata/SS2/SS2_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/SS2/SS2_Bluetooth_cal.acdb \
+    vendor/sharp/SAT/proprietary/vendor/etc/acdbdata/SS2/SS2_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/SS2/SS2_General_cal.acdb \
+    vendor/sharp/SAT/proprietary/vendor/etc/acdbdata/SS2/SS2_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/SS2/SS2_Global_cal.acdb \
+    vendor/sharp/SAT/proprietary/vendor/etc/acdbdata/SS2/SS2_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/SS2/SS2_Handset_cal.acdb \
+    vendor/sharp/SAT/proprietary/vendor/etc/acdbdata/SS2/SS2_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/SS2/SS2_Hdmi_cal.acdb \
+    vendor/sharp/SAT/proprietary/vendor/etc/acdbdata/SS2/SS2_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/SS2/SS2_Headset_cal.acdb \
+    vendor/sharp/SAT/proprietary/vendor/etc/acdbdata/SS2/SS2_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/SS2/SS2_Speaker_cal.acdb \
+    vendor/sharp/SAT/proprietary/vendor/etc/acdbdata/SS2/SS2_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/SS2/SS2_workspaceFile.qwsp \
     vendor/sharp/SAT/proprietary/vendor/etc/acdbdata/SAT/SAT_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/SAT/SAT_Bluetooth_cal.acdb \
     vendor/sharp/SAT/proprietary/vendor/etc/acdbdata/SAT/SAT_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/SAT/SAT_General_cal.acdb \
     vendor/sharp/SAT/proprietary/vendor/etc/acdbdata/SAT/SAT_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/SAT/SAT_Global_cal.acdb \
@@ -777,6 +785,7 @@ PRODUCT_COPY_FILES += \
     vendor/sharp/SAT/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/sharp/SAT/proprietary/vendor/lib/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_vendor.so \
     vendor/sharp/SAT/proprietary/vendor/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_adreno.so \
+    vendor/sharp/SAT/proprietary/vendor/lib/librecovery_updater_msm.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecovery_updater_msm.so \
     vendor/sharp/SAT/proprietary/vendor/lib/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSecureUILib.so \
     vendor/sharp/SAT/proprietary/vendor/lib/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libStDrvInt.so \
     vendor/sharp/SAT/proprietary/vendor/lib/libSubSystemShutdown.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSubSystemShutdown.so \
@@ -1364,6 +1373,7 @@ PRODUCT_COPY_FILES += \
     vendor/sharp/SAT/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
     vendor/sharp/SAT/proprietary/vendor/lib64/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQTEEConnector_vendor.so \
     vendor/sharp/SAT/proprietary/vendor/lib64/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriver_adreno.so \
+    vendor/sharp/SAT/proprietary/vendor/lib64/librecovery_updater_msm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librecovery_updater_msm.so \
     vendor/sharp/SAT/proprietary/vendor/lib64/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecureUILib.so \
     vendor/sharp/SAT/proprietary/vendor/lib64/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStDrvInt.so \
     vendor/sharp/SAT/proprietary/vendor/lib64/libSubSystemShutdown.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSubSystemShutdown.so \
