@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hmsars>
+	<sar hwm="SAT" value="1.380" icnvalue="0.781"/>
+    <sar hwm="SS2" value="1.220" icnvalue="0.677"/>
+</hmsars>
