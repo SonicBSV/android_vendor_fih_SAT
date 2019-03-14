@@ -1,0 +1,23 @@
+
+<Feature>
+    <Name>RefFeature</Name>
+    <Libname>libreffeature.so</Libname>
+    <Meters>
+        <SamplesRequired>4</SamplesRequired>
+        <Meter>
+            <Name>RefMeter</Name>
+            <Triggers>
+                <Trigger>
+                    <Primary>true</Primary>
+                    <AsyncId>VENDOR_HINT_FIRST_LAUNCH_BOOST</AsyncId>
+                    <AsyncType>1</AsyncType>
+                </Trigger>
+            </Triggers>
+            <Samples>1</Samples>
+            <Configs>
+                <MyConfig1>Test1</MyConfig1>
+                <MyConfig2>Test2</MyConfig2>
+            </Configs>
+        </Meter>
+    </Meters>
+</Feature>
