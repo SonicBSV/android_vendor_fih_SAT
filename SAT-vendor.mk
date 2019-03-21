@@ -464,6 +464,7 @@ PRODUCT_COPY_FILES += \
     vendor/fih/SAT/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/fih/SAT/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/fih/SAT/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service \
+    vendor/fih/SAT/proprietary/vendor/bin/hw/android.hardware.usb@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.0-service \
     vendor/fih/SAT/proprietary/vendor/bin/hw/android.hardware.biometrics.fpc@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fpc@2.1-service \
     vendor/fih/SAT/proprietary/vendor/bin/hw/android.hardware.light@2.0-service.sdm660:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.light@2.0-service.sdm660 \
     vendor/fih/SAT/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine \
@@ -571,6 +572,7 @@ PRODUCT_COPY_FILES += \
     vendor/fih/SAT/proprietary/vendor/etc/hbtp/qtc800s_dsp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/qtc800s_dsp.bin \
     vendor/fih/SAT/proprietary/vendor/etc/hbtp/qtc801s.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/qtc801s.bin \
     vendor/fih/SAT/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
+    vendor/fih/SAT/proprietary/vendor/etc/init/android.hardware.usb@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.0-service.rc \
     vendor/fih/SAT/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc \
     vendor/fih/SAT/proprietary/vendor/etc/init/android.hardware.light@2.0-service.sdm660.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.light@2.0-service.sdm660.rc \
     vendor/fih/SAT/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.widevine.rc \
@@ -1666,7 +1668,6 @@ PRODUCT_PACKAGES += \
     Qmmi \
     SVIService \
     SecProtect \
-    SmartcardService \
     TimeService \
     PowerOffAlarm \
     colorservice \
